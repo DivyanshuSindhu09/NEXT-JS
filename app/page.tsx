@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Hello from "./components/hello";
+import Devansh from "./components/devansh";
 
 export default function Home() {
   console.log('Raam Raam')
@@ -100,6 +101,7 @@ export default function Home() {
           Go to nextjs.org →
         </a>
         <Hello/>
+        <Devansh/>
       </footer>
     </div>
   );
